@@ -1,5 +1,4 @@
 # RabbitMQExample
-# RabbitMQExample
 This is an example on how to publish and consume simple text messages using RabbitMQ. Please go through the instructions if you are the new user and never worked on Rabbit MQ.
 
 For the first time: Installing Rabbit MQ in Windows
