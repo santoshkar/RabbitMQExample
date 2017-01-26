@@ -10,6 +10,9 @@ For the first time: Installing Rabbit MQ in Windows
 
 2) Download rabbit mq from https://www.rabbitmq.com/install-windows.html. Install the software.
 
+3) Make sure the RabbitMQ server is running. You can start the server using the command prompt: > rabbitmq-server.bat start.
+To restart the server you can use: >rabbitmq-server restart. 
+
 Now the setup is done. You can run the application. First you need to run the Receiver.java application. The receiver application will wait to receive any messages that is sent by the sender.
 
 Once Receiver.java is run, now you need to run Sender.java which will send the message. You can see that as soon as Sender.java sends messages, the Receiver.java will receive those messages.
